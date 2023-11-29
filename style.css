@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgba(65, 65, 64, 0.953);
+  /* height: 100vh; */
+  /* margin: -20px 0 50px; */
+  /* margin-top: 20px; */
+  /* overflow: hidden; */
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(34, 34, 34);
+}
+h2 {
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+}
+h4 {
+  text-align: left;
+  font-size: 11px;
+  font-weight: 200;
+  margin: 0;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 20px 0 30px;
+}
+/* h4 {
+  position: absolute;
+  bottom: 100;
+  left: 0;
+} */
+span {
+  font-size: 12px;
+}
+
+a {
+  font-size: 11px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.started {
+  margin-bottom: 1rem;
+}
+.social-container {
+  margin: 25px 0;
+}
+
+.social-container a {
+  margin-left: 10px;
+  border-radius: 20px;
+  border: 0px solid #ff4b2b;
+  background-color: rgb(244, 244, 244);
+  color: rgb(0, 20, 0);
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+input [type="name"] {
+  width: 50%;
+}
+select,
+.form-container .pop > input {
+  background: #eee;
+  border: 0px solid #ff4b2b;
+  padding: 12px 45px;
+  margin: 15px 0;
+  color: black;
+  border-radius: 7px;
+  width: 100%;
+}
+.divider {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-column-gap: 1.5rem;
+}
+.pop2 {
+  text-align: left;
+}
+.divider::before,
+.divider::after {
+  /* content: "-";
+  font-weight: 900;
+  color: rgb(109, 97, 29); */
+
+  content: "";
+  height: 1px;
+  display: block;
+  background-color: rgb(109, 97, 29);
+}
+.media-icons {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 1.2rem;
+}
+.media-icons img {
+  max-width: 12%;
+  margin-left: 10px;
+}
+label {
+  font-size: 11px;
+}
+input [type="checkbox"] {
+  width: 100%;
+  display: inline;
+}
+
+button {
+  border-radius: 20px;
+  border: 0px solid #ff4b2b;
+  background-color: rgb(109, 97, 29);
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 0px;
+  width: 100%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  margin-top: 1.2rem;
+}
+button:active {
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: none;
+  border: 20px;
+}
+
+button.ghost {
+  background: transparent;
+  border-color: #fff;
+}
+
+.overlay-container {
+  overflow: hidden;
+  /* flex: 5; */
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  width: 50%;
+  background-color: rgb(109, 97, 29);
+  /* height: 100%; */
+  position: relative;
+  border-radius: 30px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: rgb(34, 34, 34);
+}
+.overlay-container h5 {
+  padding: 0 2rem;
+}
+.logo {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  text-align: left;
+}
+.logo img {
+  max-width: 120px;
+}
+/* .overlay-panel {
+  widows: 50%;
+  position: absolute;
+  top: 30px;
+  left: 100px;
+} */
+
+img {
+  max-width: 100%;
+}
+/*.icons {
+	display: flex;
+	width: 30px;
+	height: 30px;
+	letter-spacing: 15px;
+	align-items: center;
+}*/
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.fpwd,
+h6 a > span {
+  font-weight: bold;
+  color: rgb(109, 97, 29);
+}
+
+.pop {
+  width: 20rem;
+}
+.wrapper {
+  width: 100%;
+  display: block;
+}
+.wrapper .wrapper--1,
+.wrapper .wrapper--2 {
+  width: 35%;
+  display: inline-block;
+}
+.wrapper .wrapper--2 {
+  margin-left: 5rem;
+}
+.wrapper .wrapper--1 > input,
+.wrapper .wrapper--2 > input {
+  background: #eee;
+  border: 0px solid #ff4b2b;
+  padding: 12px 0;
+  margin: 15px 0;
+  color: black;
+  border-radius: 7px;
+}
