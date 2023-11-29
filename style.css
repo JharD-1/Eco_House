@@ -137,6 +137,10 @@ button {
   transition: transform 80ms ease-in;
   margin-top: 1.2rem;
 }
+button a{
+color: rgb(109, 97, 29);
+	font-weight: bold;
+}
 button:active {
   transform: scale(0.95);
 }
@@ -197,19 +201,7 @@ button.ghost {
 img {
   max-width: 100%;
 }
-/*.icons {
-	display: flex;
-	width: 30px;
-	height: 30px;
-	letter-spacing: 15px;
-	align-items: center;
-}*/
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
+
 .fpwd,
 h6 a > span {
   font-weight: bold;
